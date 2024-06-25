@@ -13,11 +13,10 @@ if (answers.userGuessNumber === randomNumber) {
     console.log("Congratulatios! you guessed right number.");
 }
 else {
-    console.log("You guessed wrong number!");
+    console.log(`You guessed wrong number! correct number is ${randomNumber}`);
 }
+console.log(answers);
 //true condition. run {}
 //false- run else block
-console.log(answers);
-//pc will generate a random no
-//user input for guessing no.
+//pc will generate a random no with math.random
 //compare user input with pc generated no. show results
